@@ -39,7 +39,7 @@ const houseCostOfPeterHouse = 2500000;
 const volumeOfPeterHouseInMeters = widthOfPeterHouse * deepOfPeterHouse * heightOfPeterHouse; //volume in meter cube
 const housePriceOfPeterHouse = volumeOfPeterHouseInMeters * 2.5 * 1000 + gardenAreaOfPeterHouse * 300;
 
-console.log("House price of Peter House:", housePriceOfPeterHouse);
+console.log("House price of Peter's House:", housePriceOfPeterHouse);
 
 console.log(housePriceOfPeterHouse < houseCostOfPeterHouse);
 console.log("Peter is not paying higher than house cost!");
@@ -53,7 +53,7 @@ const houseCostOfJuliyaHouse = 1000000;
 const volumeOfJuliyaHouseInMeters = widthOfJuliyaHouse * deepOfJuliyaHouse * heightOfJuliyaHouse; //volume in meter cube
 const housePriceOfJuliyaHouse = volumeOfJuliyaHouseInMeters * 2.5 * 1000 + gardenAreaOfJuliyaHouse * 300;
 
-console.log("House price of Juliya House:", housePriceOfJuliyaHouse);
+console.log("House price of Juliya's House:", housePriceOfJuliyaHouse);
 
 console.log(housePriceOfJuliyaHouse > houseCostOfJuliyaHouse);
 console.log("Juliya is paying higher than house cost!");

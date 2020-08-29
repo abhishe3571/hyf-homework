@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0">
+    <title>Spirit Animals</title>
+    <link rel="stylesheet" href="./index.css">
+  </head>
+  <body>
+    <h1>Spirit Animal Name Generator</h1>
+    <h1>
+      Open Developer tool of your browser to see JavaScript output.
+    </h1>
+
+    <div>
+      <select
+        id="eventSelector"
+        style="margin-bottom: 1rem;">
+        <option value>-- Select one --</option>
+        <option value="onSubmit">When I submit the form</option>
+        <option
+          value="onHover"
+          selected>
+          When I hover over input
+        </option>
+        <option value="onTextChange">When I change input text</option>
+      </select>
+    </div>
+
+    <form id="myForm">
+      <input
+        name="userName"
+        type="text"
+        placeholder="Enter your name here">
+      <input
+        type="submit"
+        value="Get your spirit animal name">
+    </form>
+    <div id="output"></div>
+    <script src="./index.js"></script>
+  </body>
+</html>

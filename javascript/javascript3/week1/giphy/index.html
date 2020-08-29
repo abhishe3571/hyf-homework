@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JSON revision and API</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <section>
+      <h1>Giphy searcher</h1>
+      <form id="search-form" autocomplete="off">
+        <input
+          id="input1"
+          type="text"
+          required
+          name="searchText"
+          placeholder="Type a keyword"
+        />
+        <input
+          id="input2"
+          type="number"
+          required
+          name="count"
+          value="5"
+          min="1"
+          step="1"
+          max="25"
+          placeholder="count of gifs to be shown"
+        />
+
+        <button>Search for gifs</button>
+      </form>
+    </section>
+
+    <div id="output">
+      <!-- <img src="https://media0.giphy.com/media/TgPXzncwSLRNVEFplb/200.gif?cid=ecf05e4759607dbd638d29badce32cd4a279fd2f1ad41e9e&amp;rid=200.gif">
+      <img src="https://media2.giphy.com/media/gGfUM8Jgyte1hFpu6A/200.gif?cid=ecf05e4759607dbd638d29badce32cd4a279fd2f1ad41e9e&amp;rid=200.gif">
+      <img src="https://media3.giphy.com/media/LMFDzmRfsZrj8lD74Y/200.gif?cid=ecf05e4759607dbd638d29badce32cd4a279fd2f1ad41e9e&amp;rid=200.gif">-->
+    </div>
+
+    <!--<script src="./giphy-data.js"></script>-->
+    <script src="./index.js"></script>
+  </body>
+</html>

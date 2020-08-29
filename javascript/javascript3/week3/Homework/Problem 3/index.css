@@ -1,0 +1,17 @@
+body {
+  text-align: center;
+  background-color: blue;
+}
+
+h1 {
+  color: peru;
+}
+
+ul {
+  display: inline-block;
+  text-align: left;
+  background-color: chocolate;
+}
+p {
+  color: white;
+}
